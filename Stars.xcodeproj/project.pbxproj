@@ -12,6 +12,8 @@
 		F57F10AB2278ACEB0017CADD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F57F10A92278ACEB0017CADD /* Main.storyboard */; };
 		F57F10AD2278ACED0017CADD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F57F10AC2278ACED0017CADD /* Assets.xcassets */; };
 		F57F10B02278ACED0017CADD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F57F10AE2278ACED0017CADD /* LaunchScreen.storyboard */; };
+		F57F10B82278B4110017CADD /* Star.swift in Sources */ = {isa = PBXBuildFile; fileRef = F57F10B72278B4110017CADD /* Star.swift */; };
+		F57F10BA2278B4A30017CADD /* StarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F57F10B92278B4A30017CADD /* StarController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,9 @@
 		F57F10AC2278ACED0017CADD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F57F10AF2278ACED0017CADD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F57F10B12278ACED0017CADD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F57F10B72278B4110017CADD /* Star.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Star.swift; sourceTree = "<group>"; };
+		F57F10B92278B4A30017CADD /* StarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarController.swift; sourceTree = "<group>"; };
+		F57F10BB2278BD640017CADD /* FileManager.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = FileManager.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +43,7 @@
 		F57F10992278ACEB0017CADD = {
 			isa = PBXGroup;
 			children = (
+				F57F10BB2278BD640017CADD /* FileManager.playground */,
 				F57F10A42278ACEB0017CADD /* Stars */,
 				F57F10A32278ACEB0017CADD /* Products */,
 			);
@@ -56,6 +62,8 @@
 			children = (
 				F57F10A52278ACEB0017CADD /* AppDelegate.swift */,
 				F57F10A72278ACEB0017CADD /* ViewController.swift */,
+				F57F10B72278B4110017CADD /* Star.swift */,
+				F57F10B92278B4A30017CADD /* StarController.swift */,
 				F57F10A92278ACEB0017CADD /* Main.storyboard */,
 				F57F10AC2278ACED0017CADD /* Assets.xcassets */,
 				F57F10AE2278ACED0017CADD /* LaunchScreen.storyboard */,
@@ -135,6 +143,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F57F10B82278B4110017CADD /* Star.swift in Sources */,
+				F57F10BA2278B4A30017CADD /* StarController.swift in Sources */,
 				F57F10A82278ACEB0017CADD /* ViewController.swift in Sources */,
 				F57F10A62278ACEB0017CADD /* AppDelegate.swift in Sources */,
 			);
