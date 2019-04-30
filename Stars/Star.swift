@@ -8,7 +8,7 @@
 
 import Foundation
 
-struct Star {
+struct Star: Codable {
     var name: String // "Sun"
     var distance: Double // 0.0, 3.14
 }
